@@ -10,6 +10,6 @@ function nestedTarget() {
 
 //going deep into an #id
 function deepestChild() {
-  var chills = getElementByID('grand-node').document.querySelectorAll('div')
+  var chills = document.getElementByID('grand-node').document.querySelectorAll('div')
   return chills[chills.length-1]
 }
